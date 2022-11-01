@@ -4,6 +4,9 @@ demo-model:
 demo-model-dockerfile:
   path: Dockerfile
   type: model
+new-model-test:
+  path: README.md
+  type: model
 randomforest-model:
   description: Random forest classification model
   labels:
