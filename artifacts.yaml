@@ -1,6 +1,9 @@
 demo-model:
   path: .mlem/model/lightgbm-model
   type: model
+demo-model-dockerfile:
+  path: Dockerfile
+  type: model
 randomforest-model:
   description: Random forest classification model
   labels:
