@@ -2,3 +2,5 @@
     remote = s3_storage
 ['remote "s3_storage"']
     url = s3://sandbox-datasets-iterative/bank-customer-churn/
+['remote "local"']
+    url = /tmp/dvc/dvclive

@@ -1,0 +1,10 @@
+metrics:
+- metrics.json
+plots:
+- plots/metrics:
+    x: step
+- plots/images
+artifacts:
+  model:
+    path: ../../models/model.joblib
+    type: model

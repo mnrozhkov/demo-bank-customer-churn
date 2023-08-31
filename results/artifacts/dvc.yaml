@@ -1,0 +1,11 @@
+plots:
+- plots/images
+artifacts:
+  feature-importance-train:
+    path: ../feat_imp_train.csv
+    type: dataset
+    desc: Permutation based Feature Importance for Train dataset
+    labels:
+    - train
+    meta:
+      n_repeats: 3
